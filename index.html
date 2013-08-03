@@ -1,0 +1,128 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<script type="text/javascript">
+google.load('search', '1');
+function inputFocus() {
+document.getElementById('query-input').style['background'] = '';
+}
+function inputBlur() {
+var queryInput = document.getElementById('query-input');
+if (!queryInput.value) {
+queryInput.style['background'] =
+'white url(http://www.google.com/coop/images/'
++ 'google_custom_search_watermark.gif) no-repeat 0% 50%';
+}
+}
+function init() {
+google.search.CustomSearchControl.attachAutoCompletion(
+'000582905294075659271:qe-2ijzzelg',
+document.getElementById('query-input'),
+'Kavyawali');
+inputBlur();
+}
+function submitQuery() {
+window.open('/search?q='
++ encodeURIComponent(
+document.getElementById('query-input').value),"Search result");
+return false;
+}
+google.setOnLoadCallback(init);
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<title>काव्यावली</title>
+<meta name="keywords" content="हिन्दी कविताएँ, हिन्दी कविता, काव्यावली, हिन्दी साहित्य, भारतीय साहित्य, हिन्दी भाषा, रचनाकार, रचनाएँ, गजल, नज़्म, लोक गीत, शिशु गीत, बालगीत, नवगीत, फ़िल्मी गीत, शाश्वत काव्य, धार्मिक लोक रचनाएँ, महादेवी वर्मा, जयशंकर प्रसाद, दिनकर, निराला, चौहान, बच्चन, पंत, सक्सेना, गालिब, ग़ालिब, कबीर, मीरा, उपनिषद, वेद, गीता, पुराण, मधुशाला, कुमार विश्वास, अशोक चक्रधर, शैल चतुर्वेदी, अनुवाद, अनूदित रचनाएँ , Hindi poems, kavyawali, kaavyawali , Hindi literature, Indian literature, Hindi language, composer, compositions, Ghazals, Nazm, folk songs, baby song, Baalgeet, Navgeet, film song, the eternal poetry, religious folk compositions, Mahadevi Verma, Jaishankar Prasad , Chauhan, Bachchan, Pant, Saxena, Ghalib, Ghalib, Kabir, Meera, Upanishads, Vedas, Gita, Puranas, Kumar vishwas, Ashok Chakradhar, Shell Chaturvedi" />
+<meta name="description" content="काव्यावली" />
+<meta name="keywords" content="काव्यावली" />
+<meta property="og:title" content="काव्यावली"/>
+<meta property="og:type" content="blog"/>
+<meta property="og:url" content="http://kv.nilambar.com"/>
+<meta property="og:image" content="http://a6.sphotos.ak.fbcdn.net/hphotos-ak-ash4/221894_225959887417521_217510868262423_1044466_3464694_n.jpg"/>
+<meta property="og:site_name" content="Kavyawali"/>
+<meta property="fb:admins" content="kavyawalee"/>
+<meta property="fb:app_id" content="265802726772380"/>
+<meta property="og:description" content="hindi poems"/>
+</head>
+<body>
+<div id="main" style="background-color:#EEEEEE; border: groove 20px #669999;" width="100%">
+<table style="margin: 0px auto;">
+<tr>
+<td><a href="/" title="Go back to home"><img src="https://lh6.googleusercontent.com/-2GaODuS5DSs/ToOM3tooi2I/AAAAAAAAAEs/dxaI1AlMxMI/s800/home.jpg" width="64" height="64" alt="" /></a></td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><a href="/list" title="Go back to poet list"><img src="https://lh3.googleusercontent.com/-HLqgEd3objs/ToOM3hlZVaI/AAAAAAAAAEw/JJLS4ZoEueY/s800/list.jpg" width="64" height="64" alt="" /></a></td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><a href="http://www.facebook.com/pages/%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%AA%E0%A4%B2%E0%A4%B5%E0%A4%A8/217510868262423" title="Go to facebook page"><img src="https://lh5.googleusercontent.com/-dtVSwGYLGWg/ToOM3j2TIqI/AAAAAAAAAE4/p8gWO2gGoa0/s800/fb.jpg" width="64" height="64" alt="" /></a></td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><a href="/contact" title="Send a message"><img src="https://lh4.googleusercontent.com/-1NSMB0R6sMk/ToOM3_l13WI/AAAAAAAAAE0/re8qHLEMm_g/s800/write.jpg" width="64" height="64" alt="" /></a></td>
+</tr>
+<tr><td colspan="7" align="center"><a href='/copyright'><font size='1'>Copyright</font></a></td></tr>
+<tr>
+<td colspan="7" align="center">
+<div style="width:350px;">
+<form onsubmit="return submitQuery()">
+<input name="q" size="30" id="query-input" onfocus="inputFocus();"
+onblur="inputBlur();" autocomplete="on" />
+<button type="submit">Search</button>
+</form>
+</div>
+</td>
+</tr>
+
+</table>
+<br />
+<div align="center">
+<a href='/list' style="font-size:16pt;color:blue;">रचनाकारों की सूची (List)</a>
+</div>
+<br />
+<div align="center">
+<a href='/recent' style="font-size:10pt;color:blue;">काव्यावली मैं नया (Recent)</a>
+</div>
+<br />
+<div style="text-align:center;">
+<table style="margin: 0px auto;">
+<tr>
+<td width="31%">
+<img src="https://lh6.googleusercontent.com/-W4g8FyzQo4g/ToONHK4OtfI/AAAAAAAAAFE/IEeCoYJnZek/s800/small_1.jpg" width="100%" height="271" alt="Kavi" />
+</td>
+<td width="38%">
+<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like-box href="http://www.facebook.com/Kavyawali" width="400" height="272" show_faces="true" border_color="" stream="false" header="false"></fb:like-box>
+</td>
+<td width="31%">
+<img src="https://lh5.googleusercontent.com/-uSfhDHGDKVk/ToNbH_GauGI/AAAAAAAAAEk/lz-4cSSucZM/s800/small_2.jpg" width="100%" height="270" alt="Kavi" />
+</td>
+</tr>
+<tr>
+<td colspan=3>
+<p align="center"><b>साप्ताहिक चयनित कविता</b><br /><a href='/archive?id=1'>[पुरालेख (Archive)]</a>
+</p>
+<p>
+<b>ख़ामोश नज़रों की गवाही</b><br/><br/>
+यहाँ ख़ामोश नज़रों की गवाही कौन पढ़ता है<br/>
+मेरी आँखों में तेरी बेग़ुनाही कौन पढ़ता है<br/><br/>
+नुमाइश में लगी चीज़ों को मैला कर रहे हैं सब<br/>
+लिखी तख्तों पे "छूने की मनाही" कौन पढ़ता है<br/><br/>
+जहाँ दिन के उजालों का खुला व्यापार चलता हो<br/>
+वहाँ बेचैन रातों की सियाही कौन पढ़ता है<br/><br/>
+ये वो महफिल है, जिसमें शोर करने की रवायत है<br/>
+दबे लब पर हमारी वाह-वाही कौन पढ़ता है<br/><br/>
+वो बाहर देखते हैं, और हमें मुफ़लिस समझते हैं<br/>
+खुदी जज़्बों पे अपनी बादशाही कौन पढ़ता है<br/><br/>
+जो ख़ुशक़िस्मत हैं, बादल-बिजलियों पर शेर कहते हैं<br/>
+लुटे आंगन में मौसम की तबाही, कौन पढ़ता है<br/>
+</p>
+<b>आशुतोष द्विवेदी</b>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</body>
+</html>
